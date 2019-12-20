@@ -2,8 +2,8 @@
 	session_start();
 	
 	//If user has not logged in, redirect him to login page page
-	/*if(!isset($_SESSION["mobNo"]))
-        header("location: index.php");*/
+	if(!isset($_SESSION["mobNo"]))
+        header("location: index.php");
 	
 	require_once('../DatabaseConnections/quizdb.php');
 ?>
