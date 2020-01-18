@@ -4,8 +4,8 @@
 	function openCon(){
 		//Database connection Parameters
 		$dbhost = "localhost";
-		$dbuser = "michael";
-		$dbpass = "mic123";
+		$dbuser = "root";
+		$dbpass = "root";
 		$db = "quizphp";
 		
 		//Connect to the database
